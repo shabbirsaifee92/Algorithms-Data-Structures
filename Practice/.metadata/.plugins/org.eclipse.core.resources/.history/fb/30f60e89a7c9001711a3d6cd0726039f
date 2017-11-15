@@ -1,0 +1,27 @@
+
+public class ImplmentStack {
+
+	static class Stack <Node>{
+		
+		int top;
+		int maxSize=10;
+		Node arr[];
+		
+		Stack(){
+			arr = new Node[10];
+		}
+		Node pop(){
+			
+			
+		}
+		
+		void push(Node n){
+			
+		}
+		
+		boolean isEmpty(){
+			
+			return false;
+		}
+	}
+}

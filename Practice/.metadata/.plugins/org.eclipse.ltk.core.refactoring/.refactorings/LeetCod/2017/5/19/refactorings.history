@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ListNode&apos; to &apos;ListNode2&apos;&#x0D;&#x0A;- Original project: &apos;LeetCod&apos;&#x0D;&#x0A;- Original element: &apos;ListNode&apos;&#x0D;&#x0A;- Renamed element: &apos;ListNode2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ListNode&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{ListNode.java[ListNode" matchStrategy="1" name="ListNode2" qualified="false" references="true" similarDeclarations="false" stamp="1494308470854" textual="false" version="1.0"/>
+</session>

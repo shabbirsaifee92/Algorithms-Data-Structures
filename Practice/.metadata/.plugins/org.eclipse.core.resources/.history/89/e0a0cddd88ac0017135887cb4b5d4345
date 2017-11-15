@@ -1,0 +1,8 @@
+/*
+ * 
+ * Mthod 1) using hash map ==> O(n) time and O(n) space
+ * Method 2) Moores majority element
+ */
+public class MajorityElement {
+
+}

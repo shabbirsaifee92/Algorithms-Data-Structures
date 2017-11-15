@@ -1,0 +1,35 @@
+import java.util.ArrayList;
+
+/*
+ * 
+ * The cost of a stock on each day is given in an array, find the max profit that you can make by buying and selling in those days. 
+ */
+public class StockBuySell2 {
+
+	public static void main(String[] args) {
+		
+		int arr [] = {100, 180 ,260 ,310, 40, 535, 695};
+		
+		int maxP = calMaxProfit(arr.length,arr);
+	}
+
+	private static int calMaxProfit(int n, int[] arr) {
+		
+		int totalProfit = -1;
+		int maxP  = -1;
+		int minBuyPrice = -1;
+		ArrayList<Integer> localMin= new ArrayList<>();
+		ArrayList<Integer> localMax = new ArrayList<>();
+		int i =0;
+		while(i<n){
+			// find local min
+			if(arr[i]<arr[i+1]){
+				localMin.add(arr[i]);
+				i++;
+				
+			}
+			
+		}
+		
+	}
+}

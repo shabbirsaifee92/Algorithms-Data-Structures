@@ -1,0 +1,30 @@
+
+public class LCSOf1 {
+
+	
+	public static void main(String args[]){
+		
+		
+		int a[]={1,1,0,1,1,1,0,1,0};
+		int count[] = new int [a.length];
+		int c =0;
+		int ind =-1;
+		// traverse to find right side of 0
+		
+		for(int i =0;i<a.length;i++){
+			
+			if(a[i]==0){
+				if(ind>-1)				
+					a[ind]=c;
+				ind=i;
+				
+			}
+			else{
+				c++;
+			}
+				
+		}
+		
+		System.out.println();
+	}
+}

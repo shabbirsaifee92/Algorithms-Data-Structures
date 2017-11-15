@@ -1,0 +1,30 @@
+
+public class ImplmentStack {
+
+	static class Stack <Node>{
+		
+		int top;
+		int maxSize=10;
+		Node arr[];
+		
+		Stack(){
+			arr = (Node[]) new Object[10];
+			top =-1;			
+		}
+		Node pop(){
+			if(top==-1){
+				return new Exception();
+			}
+			
+		}
+		
+		void push(Node n){
+			
+		}
+		
+		boolean isEmpty(){
+			
+			return false;
+		}
+	}
+}

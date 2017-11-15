@@ -1,0 +1,27 @@
+
+public class LongestSubstring {
+
+	public static void main(String args[]){
+		String s = "abcabcbb";
+		int max = findLongestSubstring(s);
+		System.out.println(max);
+	}
+
+	private static int findLongestSubstring(String s) {
+		// TODO Auto-generated method stub
+		int max=0;
+		int arr[] = new int[s.length()];
+		arr[0]=1;
+		max=1;
+		String sb = String.valueOf(s.charAt(0));
+		String[] a = new String[s.length()];
+		a[0]=String.valueOf(s.charAt(0));
+		for(int i =1;i<s.length();i++)
+		{
+			if(sb.contains(String.valueOf(s.charAt(i)))){
+				
+			}
+		}
+		return max;
+	}
+}

@@ -1,0 +1,23 @@
+/*
+ * 
+ * Mthod 1) using hash map ==> O(n) time and O(n) space
+ * Method 2) Moores majority element
+ */
+public class MajorityElement {
+
+	
+	
+	public static void main(String[] args) {
+		int arr [] = {3,3,4,2,4,4,2,4,4};
+		int majority = getMajorty(arr);
+	}
+	private int getMajorty(int[] arr2) {
+		 int maj_index =0;
+		 int count =1;
+		 
+		 for (int i =0;i<arr.length-1;i++){
+			 
+		 }
+		return 0;
+	}
+}

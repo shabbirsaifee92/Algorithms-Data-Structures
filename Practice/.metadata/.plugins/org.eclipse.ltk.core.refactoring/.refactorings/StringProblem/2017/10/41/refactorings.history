@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;StringQues/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;StringProblem&apos;&#x0D;&#x0A;- Destination element: &apos;StringQues/src/(default package)&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Anagram.java&#x0D;&#x0A;     Check.java&#x0D;&#x0A;     RemoveSpaces.java" description="Copy compilation units" destination="=StringQues/src&lt;" element1="/src&lt;{Anagram.java" element2="/src&lt;{Check.java" element3="/src&lt;{RemoveSpaces.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1507494350661" units="3" version="1.0"/>
+</session>

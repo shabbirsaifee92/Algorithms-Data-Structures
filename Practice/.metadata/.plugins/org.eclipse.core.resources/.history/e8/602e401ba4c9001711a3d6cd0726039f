@@ -1,0 +1,19 @@
+
+public class AddTwoLinkedListNumber {
+
+	public static class Node
+    {
+        int data;
+        Node next;
+        Node(int d)
+        {
+            data = d;
+            next = null;
+        }
+    }
+	public Node add(Node n1,Node n2){
+		Node res=null;
+		
+		return res;
+	}
+}

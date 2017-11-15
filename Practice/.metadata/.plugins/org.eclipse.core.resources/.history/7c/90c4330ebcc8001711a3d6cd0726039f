@@ -1,0 +1,34 @@
+/*
+ * Given a binary tree check if it is a BST
+ */
+public class CheckIfBST {
+
+	static class Node
+	{
+	    int data;
+	    Node left, right;
+	 
+	    public Node(int item)
+	    {
+	        data = item;
+	        left = right = null;
+	    }
+	}
+	
+	
+	boolean isBST(Node root){
+		
+		//Base case
+		if(root==null)
+			return true;
+		
+		int maxLeft = getMaxVal(root.left);
+		int minRight = getMinVal(root.right);
+		
+		if(root.data> maxLeft && root.data< minRight && isBST(root.left) && isBST(root.right)){
+			return true;
+		}
+		
+		return false;
+	}
+}
